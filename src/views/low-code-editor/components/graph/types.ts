@@ -1,5 +1,3 @@
-import { Node } from '@antv/x6/src/model/node';
-
 export interface MenuItem {
   id: string | number;
   name: string;

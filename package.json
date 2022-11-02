@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.41",
     "@antv/x6": "1.34.5",
     "@antv/x6-vue-shape": "1.5.3",
     "@arco-design/web-vue": "2.37.4",
-    "arco-design-pro-vue": "2.5.12"
+    "arco-design-pro-vue": "2.5.12",
+    "vite-svg-loader": "^3.6.0",
+    "vue": "^3.2.41"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",

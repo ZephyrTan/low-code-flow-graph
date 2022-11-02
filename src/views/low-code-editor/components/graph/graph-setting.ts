@@ -1,6 +1,10 @@
 import { Shape } from '@antv/x6';
 import SimpleNodeView from './minimap-view';
 
+/**
+ * 图形配置设置
+ * @param cElement
+ */
 const graphSettings = (cElement: HTMLElement) => {
   return {
     container: cElement,

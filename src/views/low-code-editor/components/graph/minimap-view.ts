@@ -1,3 +1,7 @@
+/**
+ * 小地图 自定义展示
+ */
+
 import { NodeView } from '@antv/x6';
 
 export default class SimpleNodeView extends NodeView {

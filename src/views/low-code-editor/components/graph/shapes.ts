@@ -1,7 +1,7 @@
 import { Graph } from '@antv/x6';
 import { h } from 'vue';
 import Node from './Node.vue';
-
+// 注册菜单节点
 Graph.registerNode('menu-node', {
   inherit: 'rect',
   width: 180,
@@ -39,6 +39,9 @@ Graph.registerNode('menu-node', {
     },
   },
 });
+
+
+// 注册拖拽放置节点
 Graph.registerNode('container-node', {
   inherit: 'vue-shape',
   width: 180,
